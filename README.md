@@ -268,5 +268,4 @@ Compiled: `gcc -Wall -Wextra -Werror -pedantic 1000-main.c 1000-sort_deck.c -o d
 
 ---
 
-## Student team
-* **Amro Madani** - [Amro Madani](github.com/aali1189)
+* **Amro Madani** - [Amro Madani](https://github.com/aali1189)
