@@ -1,22 +1,19 @@
-# (248) 0x1B. C - Sorting algorithms & Big O
+# 0x1B. C - Sorting algorithms & Big O
 Data structures and Algorithms
 
 ---
 
-### Project author
+### Project author:
 Alexandre Gautier
 
-### Assignment dates
-started Jan 17, 2024 6:00 AM, must end by Jan 28, 2024 6:00 AM
-
-### Description
+### Description:
 Project to be done in teams of 2 people (your team: Amro Madani). 
 Introduction to popular sorting algorithms, and using big O notation to indicate time and space complexity.
 
-### Note
+### Note:
 This project was created in a repository separate from [`Sorting Algorithms`](https://github.com/aali1189/sorting_algorithms), where the other projects from this section are located.
 
-### Requirements
+### Requirements:
 
 * Allowed editors: vi, vim, emacs
 * All your files will be compiled on Ubuntu 20.04 LTS using gcc, using the options -Wall -Werror -Wextra -pedantic -std=gnu89
