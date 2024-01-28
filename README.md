@@ -1,5 +1,5 @@
 # (248) 0x1B. C - Sorting algorithms & Big O
-Foundations > Low-level programming & Algorithm > Data structures and Algorithms
+Data structures and Algorithms
 
 ---
 
@@ -7,27 +7,43 @@ Foundations > Low-level programming & Algorithm > Data structures and Algorithms
 Alexandre Gautier
 
 ### Assignment dates
-06-11-2020 to 06-18-2020
+started Jan 17, 2024 6:00 AM, must end by Jan 28, 2024 6:00 AM
 
 ### Description
-Fourth team project. Introduction to popular sorting algorithms, and using big O notation to indicate time and space complexity.
+Project to be done in teams of 2 people (your team: Amro Madani). 
+Introduction to popular sorting algorithms, and using big O notation to indicate time and space complexity.
 
 ### Note
-This project was created in a repository separate from [`holbertonschool-low_level_programming`](https://github.com/allelomorph/holbertonschool-low_level_programming), where the other projects from this section are located.
+This project was created in a repository separate from [`Sorting Algorithms`](https://github.com/aali1189/sorting_algorithms), where the other projects from this section are located.
 
 ### Requirements
-* You are not allowed to use global variables
-* Unless specified otherwise, you are not allowed to use the standard library. Any use of functions like `printf`, `puts`, … is totally forbidden.
-* The following format is expected for big O notation:
-  * `O(1)`
-  * `O(n)`
-  * `O(n!)`
-  * n squared -> `O(n^2)`
-  * log(n) -> `O(log(n))`
-  * n * log(n) -> `O(nlog(n))`
-  * n + k -> `O(n+k)`
 
-Please use the "short" notation (don't use constants). Example: `O(nk)` or `O(wn)` should be written `O(n)`. If an answer is required within a file, all your answers files must have a newline at the end.
+* Allowed editors: vi, vim, emacs
+* All your files will be compiled on Ubuntu 20.04 LTS using gcc, using the options -Wall -Werror -Wextra -pedantic -std=gnu89
+* All your files should end with a new line
+* A README.md file, at the root of the folder of the project, is mandatory
+* Your code should use the Betty style. It will be checked using betty-style.pl and betty-doc.pl
+* You are not allowed to use global variables
+* No more than 5 functions per file
+* Unless specified otherwise, you are not allowed to use the standard library. Any use of functions like printf, puts, … is totally forbidden.
+* In the following examples, the main.c files are shown as examples. You can use them to test your functions, but you don’t have to push them to your repo (if you do we won’t take them into account). We will use our own main.c files at compilation. Our main.c files might be different from the one shown in the examples
+* The prototypes of all your functions should be included in your header file called sort.h
+* Don’t forget to push your header file
+* All your header files should be include guarded
+* A list/array does not need to be sorted if its size is less than 2.
+
+### Please, note this format is used for Quiz and Task questions.
+
+* O(1)
+* O(n)
+* O(n!)
+* n square -> O(n^2)
+* log(n) -> O(log(n))
+* n * log(n) -> O(nlog(n))
+* n + k -> O(n+k)
+* …
+
+### Please use the “short” notation (don’t use constants). Example: O(nk) or O(wn) should be written O(n). If an answer is required within a file, all your answers files must have a newline at the end.
 
 ### Provided file(s)
 * [`print_array.c`](./print_array.c)
@@ -37,7 +53,7 @@ Please use the "short" notation (don't use constants). Example: `O(nk)` or `O(wn
 * [`0-main.c`](./tests/0-main.c) [`1-main.c`](./tests/1-main.c) [`2-main.c`](./tests/2-main.c) [`3-main.c`](./tests/3-main.c) [`100-main.c`](./tests/100-main.c) [`101-main.c`](./tests/101-main.c) [`102-main.c`](./tests/102-main.c) [`103-main.c`](./tests/103-main.c) [`104-main.c`](./tests/104-main.c) [`105-main.c`](./tests/105-main.c) [`106-main.c`](./tests/106-main.c) [`107-main.c`](./tests/107-main.c) [`1000-main.c`](./tests/1000-main.c)
 
 ### Note
-While found in a separate repository, this project is part of [`holbertonschool-low_level_programming`](https://github.com/allelomorph/holbertonschool-low_level_programming).
+While found in a separate repository, this project is part of [`Sorting Algorithms`](https://github.com/aali1189/sorting_algorithms).
 
 ---
 
