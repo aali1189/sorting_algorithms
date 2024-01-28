@@ -5,6 +5,7 @@ void sort_suit(deck_node_t **deck);
 void sort_val(deck_node_t **deck);
 void swap(deck_node_t **deck, deck_node_t *card1, deck_node_t *card2);
 int vcmp(const card_t *card1, const card_t *card2);
+
 /**
  * sort_deck - sorts a 52 card deck
  * @deck: deck to sort
@@ -59,6 +60,7 @@ void sort_val(deck_node_t **deck)
 		}
 	}
 }
+
 /**
  * swap - swaps 2 consecutive cards of a doubly linked list
  * Used in the insertion algorithm
@@ -66,6 +68,7 @@ void sort_val(deck_node_t **deck)
  * @card1: The first card to swap
  * @card2: The second card to swap
  */
+
 void swap(deck_node_t **deck, deck_node_t *card1, deck_node_t *card2)
 {
 	deck_node_t *prev, *next;
@@ -92,6 +95,7 @@ void swap(deck_node_t **deck, deck_node_t *card1, deck_node_t *card2)
  *
  * Return: 1 if less than, 0 if greater or equal to
  */
+
 int vcmp(const card_t *card1, const card_t *card2)
 {
 	char char1 = card1->value[0], char2 = card2->value[0];
